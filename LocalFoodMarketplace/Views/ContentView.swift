@@ -239,7 +239,6 @@ struct ComidaCardView: View {
                 // Preço Formatado
                 Text(comida.precoFormatado)
                     .font(.subheadline)
-                    .fontWeight(.extrabold)
                     .foregroundColor(.primary)
                     .accessibilityLabel("Preço: \(comida.precoFormatado)") // A11y leitura correta de preços
             }
