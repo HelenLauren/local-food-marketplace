@@ -177,7 +177,7 @@ struct ComidaCardView: View {
                 Image(comida.imagemNome)
                     .resizable()
                     .scaledToFill()
-                    .frame(height: 130)
+                    .frame(minWidth: 0, maxWidth: .infinity, minHeight: 130, maxHeight: 130)
                     .clipped()
                 
                 // Botão de Favoritar com área de toque mínima de 44x44

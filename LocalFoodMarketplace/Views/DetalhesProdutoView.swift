@@ -21,7 +21,7 @@ struct DetalhesProdutoView: View {
                     Image(comida.imagemNome)
                         .resizable()
                         .scaledToFill()
-                        .frame(height: 260)
+                        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 260, maxHeight: 260)
                         .cornerRadius(24)
                         .clipped()
                 }
