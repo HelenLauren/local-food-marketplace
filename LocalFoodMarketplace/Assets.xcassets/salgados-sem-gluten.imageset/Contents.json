@@ -1,0 +1,12 @@
+{
+    "images":  [
+                   {
+                       "filename":  "salgados-sem-gluten.jpg",
+                       "idiom":  "universal"
+                   }
+               ],
+    "info":  {
+                 "author":  "xcode",
+                 "version":  1
+             }
+}

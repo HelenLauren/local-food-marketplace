@@ -77,7 +77,7 @@ extension ComidaArtesanal {
             distancia: "1.2 km de você",
             preco: 189.90,
             categoria: "Festas",
-            imagemNome: "party.popper.fill",
+            imagemNome: "kit-festa",
             descricao: "Kit completo ideal para comemorações de até 10 pessoas. Inclui: 1 bolo decorado de chocolate (1.5kg), 50 brigadeiros gourmet enrolados na hora, 2 garrafas de refrigerante de 2L e 100 salgadinhos fritos variados (coxinha, bolinha de queijo, rissole). Tudo fresquinho e feito com ingredientes de primeira qualidade.",
             isFavorito: false
         ),
@@ -88,7 +88,7 @@ extension ComidaArtesanal {
             distancia: "0.8 km de você",
             preco: 25.00,
             categoria: "Bolos",
-            imagemNome: "birthday.cake.fill",
+            imagemNome: "bolo-fuba",
             descricao: "Tradicional bolo de fubá com erva-doce, fofinho e recém-saído do forno. Perfeito para acompanhar o café da tarde em família. Feito com milho selecionado e carinho de avó. Não contém conservantes.",
             isFavorito: false
         ),
@@ -99,7 +99,7 @@ extension ComidaArtesanal {
             distancia: "3.5 km de você",
             preco: 450.00,
             categoria: "Jantar",
-            imagemNome: "wineglass.fill",
+            imagemNome: "ceia-natal",
             descricao: "Ceia natalina completa para até 6 pessoas. Acompanha: Chester assado decorado com frutas em calda, arroz à grega aromático, farofa rica natalina com bacon e frutas secas, salpicão de frango defumado clássico e uma travessa média de rabanadas tradicionais.",
             isFavorito: false
         ),
@@ -110,7 +110,7 @@ extension ComidaArtesanal {
             distancia: "2.1 km de você",
             preco: 45.00,
             categoria: "Sem Glúten",
-            imagemNome: "checkmark.seal.fill",
+            imagemNome: "salgados-sem-gluten",
             descricao: "Cento de mini salgadinhos assados sem glúten (coxinha de batata doce com frango, empadinha de palmito e bolinho de mandioca com carne seca). Preparados em cozinha 100% isolada e livre de contaminação cruzada, ideal para celíacos.",
             isFavorito: false
         ),
@@ -121,7 +121,7 @@ extension ComidaArtesanal {
             distancia: "1.5 km de você",
             preco: 48.00,
             categoria: "Vegano",
-            imagemNome: "leaf.fill",
+            imagemNome: "salgados-veganos",
             descricao: "Porção de 20 salgados assados artesanais totalmente livres de ingredientes de origem animal. Recheios de palmito cremoso com alho-poró, shimeji temperado e proteína de soja com ervas finas. Massa leve feita com farinha integral.",
             isFavorito: false
         ),
@@ -132,7 +132,7 @@ extension ComidaArtesanal {
             distancia: "1.7 km de você",
             preco: 38.00,
             categoria: "Vegano",
-            imagemNome: "leaf.arrow.triangle.circlepath",
+            imagemNome: "janta-vegana",
             descricao: "Prato do dia vegano completo e balanceado. Acompanha: arroz integral com gergelim, feijão azuki temperado com louro, hambúrguer artesanal de grão-de-bico com especiarias, legumes grelhados (abobrinha, berinjela e cenoura) e uma salada verde fresca.",
             isFavorito: false
         ),
@@ -143,7 +143,7 @@ extension ComidaArtesanal {
             distancia: "2.8 km de você",
             preco: 35.00,
             categoria: "Mexicana",
-            imagemNome: "flame.fill",
+            imagemNome: "tacos",
             descricao: "Combo com 3 tacos mexicanos crocantes com tortillas de milho feitas à mão. Acompanha recheio de carne desfiada temperada (ou opção de chilli vegano de lentilha), guacamole fresca feita no dia, pico de gallo e sour cream artesanal.",
             isFavorito: false
         ),
@@ -154,7 +154,7 @@ extension ComidaArtesanal {
             distancia: "4.0 km de você",
             preco: 52.00,
             categoria: "Asiática",
-            imagemNome: "cup.and.saucer.fill", // Usado como representação de tigela com caldo fumegante
+            imagemNome: "lamen",
             descricao: "Lámen tradicional japonês preparado com caldo de porco (Tonkotsu) cozido por 12 horas para máximo sabor, macarrão caseiro fresco, fatias de Chashu (panceta marinada), ovo Ajitama perfeitamente cozido com gema mole, menma (brotos de bambu) e cebolinha fresca.",
             isFavorito: false
         )

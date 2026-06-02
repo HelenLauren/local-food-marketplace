@@ -165,7 +165,7 @@ struct ComidaCardView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             
-            // Imagem Decorativa (Gradiente + SF Symbol)
+            // Imagem do Prato
             ZStack(alignment: .topTrailing) {
                 LinearGradient(
                     colors: comida.gradienteCores,
@@ -174,12 +174,11 @@ struct ComidaCardView: View {
                 )
                 .frame(height: 130)
                 
-                Image(systemName: comida.imagemNome)
+                Image(comida.imagemNome)
                     .resizable()
-                    .scaledToFit()
-                    .frame(width: 44, height: 44)
-                    .foregroundColor(.white)
-                    .position(x: 80, y: 65) // Centralizado na imagem
+                    .scaledToFill()
+                    .frame(height: 130)
+                    .clipped()
                 
                 // Botão de Favoritar com área de toque mínima de 44x44
                 Button(action: {

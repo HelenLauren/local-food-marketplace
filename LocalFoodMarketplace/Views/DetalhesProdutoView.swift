@@ -7,7 +7,7 @@ struct DetalhesProdutoView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
-                // Header com imagem simulada (Gradiente e Ícone SF Symbol)
+                // Header com imagem do prato
                 // A11y: Prioridade 1 (será lido depois do nome do prato)
                 ZStack {
                     LinearGradient(
@@ -17,15 +17,15 @@ struct DetalhesProdutoView: View {
                     )
                     .frame(height: 260)
                     .cornerRadius(24)
-                    .shadow(color: comida.gradienteCores.first?.opacity(0.3) ?? .gray.opacity(0.3), radius: 10, x: 0, y: 5)
                     
-                    Image(systemName: comida.imagemNome)
+                    Image(comida.imagemNome)
                         .resizable()
-                        .scaledToFit()
-                        .frame(width: 100, height: 100)
-                        .foregroundColor(.white)
-                        .shadow(color: .black.opacity(0.2), radius: 5, x: 0, y: 3)
+                        .scaledToFill()
+                        .frame(height: 260)
+                        .cornerRadius(24)
+                        .clipped()
                 }
+                .shadow(color: comida.gradienteCores.first?.opacity(0.3) ?? .gray.opacity(0.3), radius: 10, x: 0, y: 5)
                 .accessibilityElement(children: .ignore)
                 .accessibilityLabel(comida.acessibilidadeDescricaoImagem)
                 .accessibilitySortPriority(1)

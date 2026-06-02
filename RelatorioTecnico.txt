@@ -1,0 +1,45 @@
+
+======================================================================
+               ROTEIRO PARA O VÍDEO DE APRESENTAÇÃO (YOUTUBE)
+======================================================================
+Duração Estimada: 12 a 15 minutos
+Participantes: Helen Lauren, Raissa, Marco
+
+[00:00 - 02:00] INTRODUÇÃO E OBJETIVOS DO PROJETO (Todos)
+--------------------------------------------------------
+- Helen abre o vídeo, apresenta os integrantes (Helen, Raissa, Marco) e explica o tema do projeto: um marketplace local de comidas caseiras e artesanais (Mercado Caseiro).
+- Marco introduz a importância do desenvolvimento voltado para acessibilidade (A11y) no ecossistema iOS e como isso guiou as decisões do grupo.
+- Raissa apresenta rapidamente a proposta visual e as tecnologias chaves utilizadas (SwiftUI, LazyVGrid, Dynamic Type, VoiceOver).
+
+[02:00 - 06:00] DEMONSTRAÇÃO DO APLICATIVO RODANDO (Raissa)
+----------------------------------------------------------
+- Raissa compartilha a tela do simulador e navega pelo app.
+- Demonstra a rolagem fluida e o comportamento responsivo do LazyVGrid.
+- Realiza buscas textuais pela barra '.searchable' (filtrando por nome do prato, categoria ou cozinheiro).
+- Utiliza os filtros rápidos de categoria (pílulas horizontais).
+- Demonstra a funcionalidade de favoritar itens no grid e filtrar a tela principal exibindo apenas favoritos.
+- Clica em um prato, vai para a tela de detalhes e realiza uma simulação de pedido ("Fazer Pedido com o Cozinheiro"), mostrando o alerta de confirmação.
+
+[06:00 - 09:30] DETALHAMENTO DE ACESSIBILIDADE E VOICEOVER (Marco)
+------------------------------------------------------------------
+- Marco ativa o VoiceOver no simulador para demonstrar a navegação por áudio.
+- Mostra a leitura correta e natural dos preços ("Preço: vinte e cinco reais").
+- Navega pelos cards demonstrando as descrições ricas das imagens configuradas via '.accessibilityLabel'.
+- Mostra como a área de toque dos botões foi expandida para ser facilmente clicável (min 44x44).
+- Entra na tela de detalhes e demonstra a prioridade de leitura em ação: o VoiceOver lê o título "Bolo da Vovó de Fubá" antes de ler e descrever a foto do cabeçalho.
+- Demonstra a interface se adaptando ao aumento do tamanho das fontes do sistema (Dynamic Type), mostrando que os textos quebram linhas sem quebrar o layout.
+
+[09:30 - 13:30] ANÁLISE TÉCNICA E CÓDIGO FONTE (Helen)
+------------------------------------------------------
+- Helen abre o Xcode e guia o walkthrough do código:
+  1. Mostra a estrutura limpa de pastas gerada a partir do project.yml (XcodeGen).
+  2. Explica o modelo 'ComidaArtesanal.swift' e a lógica dos gradientes de cores dinâmicos.
+  3. Explica a lógica de busca e pílulas de filtros na 'ContentView.swift'.
+  4. Detalha a solução técnica adotada para resolver o bug de sincronização de favoritos usando passagem de referências dinâmicas via '@Binding'.
+  5. Explica a solução aplicada para isolar o clique do botão de favoritar dentro do NavigationLink usando 'PlainButtonStyle'.
+
+[13:30 - 15:00] CONCLUSÃO E ENCERRAMENTO (Todos)
+------------------------------------------------
+- Marco conclui comentando sobre o aprendizado obtido ao planejar um app sob as diretrizes de acessibilidade desde o primeiro dia de design.
+- Raissa agradece a atenção dos avaliadores.
+- Helen encerra o vídeo convidando a testar o projeto rodando o XcodeGen ou abrindo o xcodeproj direto.
