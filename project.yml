@@ -1,0 +1,17 @@
+name: LocalFoodMarketplace
+options:
+  bundleIdPrefix: HelenLauren
+targets:
+  LocalFoodMarketplace:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: LocalFoodMarketplace
+    settings:
+      base:
+        INFOPLIST_FILE: LocalFoodMarketplace/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: HelenLauren.LocalFoodMarketplace
+        MARKETING_VERSION: 1.0.0
+        CURRENT_PROJECT_VERSION: 1
+        DEVELOPMENT_TEAM: ""
