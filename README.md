@@ -1,6 +1,6 @@
-# Local Food Marketplace - Mercado Caseiro Local
+# Local Food Marketplace - Feirinha do Lago da Ordem (mas genérico)
 
-Um aplicativo iOS nativo desenvolvido em **SwiftUI** que simula uma vitrine virtual de comidas caseiras e artesanais focada em conexões locais (estilo classificados de bairro). O foco central deste projeto é a implementação rigorosa das diretrizes de **Acessibilidade (A11y)** e boas práticas de design moderno.
+Um aplicativo iOS nativo desenvolvido em **SwiftUI** que simula uma vitrine virtual de comidas caseiras e artesanais da FEIRA DO LAGO DA ORDEM, focada em conexões locais (estilo classificados de bairro). O foco central deste projeto é a implementação rigorosa das diretrizes de **Acessibilidade (A11y)** e boas práticas de design moderno.
 
 ---
 
